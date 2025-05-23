@@ -1,0 +1,9 @@
+data=11
+contador=0
+
+while contador <=100:
+    multiplicacao = data * contador
+    contador+=1
+    if multiplicacao > 1000:
+        print(f" este {multiplicacao} e maior que o tal 1000!")
+    print(multiplicacao)
