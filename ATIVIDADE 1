@@ -1,0 +1,12 @@
+nome = input("Digite seu nome:")
+idade = input("sua idade atual:")
+Profissao = input("qual e a sua profissao:")
+Cidade = input("Qual e a sua cidade atual:")
+CorFavorita = input("qual e a sua cor favorita:")
+
+print(f"\nOla. {nome}! Bem vindo ao nosso questionario.")
+print(f"voce em a {idade} anos e mora em tal {Cidade}.")
+
+print(f" voce esta trabalhando como {Profissao}.")
+print(f"qual e a tua {CorFavorita}.")
+print(f"\nResumo: {nome} , {idade} anos , mora na {Cidade } , trabalha como {Profissao} e sua {CorFavorita}")
