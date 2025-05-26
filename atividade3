@@ -9,17 +9,17 @@ usuarios=["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabrie
 "Taylor", "Zion", "Avery", "Blair", "Casey", "Devon", "Eden", "Finley", "Gray", "Hunter",
 "Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"
 ]
-contador = 0
+contar = 0
 
 for usuarios in usuarios:
-    contador+= 1
-    numero = contador % 15
+    contar+= 1
+    numero = contar % 15
     if numero == 0:
         print("teste")
     print(usuarios)
     if usuarios == "Úrsula":
         print("Bônus")
-    if contador == 85:
+    if contar == 85:
         print("Fim")
         break
     
