@@ -1,0 +1,14 @@
+nome1 = input("Digite seu nome:")
+nome2 = input("Digite seu nome:")
+nome3 = input("Digite seu nome:")
+nome4 = input("Digite seu nome:")
+nome5 = input("Digite seu nome:")
+nome6 = input("Digite seu nome:")
+nome7 = input("Digite seu nome:")
+nome8 = input("Digite seu nome:")
+nome9 = input("Digite seu nome:")
+nome10 = input("Digite seu nome:")
+
+lista=[nome1, nome2 , nome3 , nome4 , nome5 , nome6 , nome7 , nome8 , nome9 , nome10]
+lista.sort()
+print(lista)
